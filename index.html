@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single-Page CV</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    *{font-family: roboto;}
+
+    body{
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    p{margin: 0;}
+
+    span{
+      font-weight: 500;
+    }
+
+    ul{
+      margin: 0;
+    }
+
+    .line{
+      height: 2px;
+      width: 70%;
+      background-color: black;
+    }
+
+    .name{
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .green{
+      color: rgb(0, 175, 0);
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .blue{
+      color: rgb(16, 115, 214);
+      font-weight: 500;
+    }
+
+    .info{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .info p {
+      color: rgb(125, 125, 125);
+      font-size: 14px;
+    }
+
+    .box{
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .date{
+      color: rgb(125, 125, 125);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <div class="line"></div>
+
+  <p class="name">JOYCE</p>
+
+  <div>
+    <p class="green">Junior Frontend Developer</p>
+  
+    <div class="info">
+      <p>Surabaya, Indonesia</p>
+      <p>|</p>
+      <p>+62 821 1616 3005</p>
+      <p>|</p>
+      <p>abigailjoyceee@gmail.com</p>
+    </div>
+  </div>
+
+  <div>
+    <p class="green">Skills</p>
+  
+    <p><span>Technical skills: </span>HTML, CSS, JavaScript, BootStrap, Node.js, React Native, Git, and Figma</p>
+    <p><span>Soft skills: </span>Problem Solving, Time Management, Orientation to Detail, Analytical Thinking and Teamwork</p>
+    <p><span>Languages: </span>Indonesian (Native), English (Beginner)</p>
+  </div>
+
+  <div>
+    <p class="green">Education</p>
+    <div class="box">
+      <p class="blue">Terbuka University, Surabaya, Indonesia - Bachelor Degree of Management Business</p>
+      <p class="date">August 2024 to Present</p>
+    </div>
+  </div>
+
+  <div>
+    <p class="green">Courses and Training</p>
+    <div class="box">
+      <div>
+        <p class="blue">HariSenin.com - Indonesia</p>
+        <p>Full Stack Developer Bootcamp</p>
+        <ul>
+          <li>Final Project: Designed and developed a website for online courses, within 6 months</li>
+          <li>Relevant Course works: HTML, CSS, JavaScript, React Native, and Node.js</li>
+        </ul>
+      </div>
+      <p class="date">December 2025 to May 2026</p>
+    </div>
+
+    <br>
+
+    <div class="box">
+      <div>
+        <p class="blue">Apple Foundation - Surabaya, Indonesia</p>
+        <p>Full Stack Developer</p>
+        <ul>
+          <li>Worked in a collaborative team to design and build an iOS application aimed at solving a specific user problem.</li>
+          <li>Contributed to team discussions and implementation of features based on project requirements.</li>
+          <li>Applied performance optimization techniques to enhance application responsiveness.</li>
+        </ul>
+      </div>
+      <p class="date">July 2024 to August 2024</p>
+    </div>
+  </div>
+
+  <div>
+    <p class="green">Across the Internet</p>
+    <div>
+      LinkedIn: 
+      <a href="https://www.linkedin.com/in/joyce-7603013ab/">LinkedIn</a>
+    </div>
+    <div>
+      GitHub: 
+      <a href="https://github.com/Kanelvix">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
